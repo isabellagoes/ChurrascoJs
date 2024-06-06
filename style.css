@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: arial;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h3 { 
+    color: orange;
+}
+
+label, input {
+    margin-bottom: 15px; 
+    text-align: center;
+}
+
+label, ul, li, u {
+    color: white;
+    margin: 0; 
+    padding: 0; 
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 10px 50px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.esconder {
+    display: none;
+}
+
+.quadrado { 
+    padding: 27px;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#resultados li {
+    list-style: none; 
+    margin: 8px 0; 
+    font-size: 17px;
+}
+
+#resultados li:hover {
+    color: orange;
+}

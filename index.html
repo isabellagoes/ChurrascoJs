@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasco</title>
+</head>
+<body>
+    <div id="dados">
+        <div class="quadrado" id="formulario">
+            <h3>Churrasco</h3>
+            <form id="churrascoFormulario">
+                <div id="comAlcool">
+                    <label for="inputComAlcool">Alcoólatras</label>
+                    <br>
+                    <input type="number" id="inputComAlcool" name="comAlcool" required> 
+                </div>
+                <div id="semAlcool">
+                    <label for="inputSemAlcool">Não Alcoólatras</label>
+                    <br>
+                    <input type="number" id="inputSemAlcool" name="semAlcool" required>
+                </div>
+                <div id="criancas">
+                    <label for="inputCriancas">Crianças</label>
+                    <br>
+                    <input type="number" id="inputCriancas" name="criancas" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="resultados" class="segundaParte">
+        <div class="quadrado">
+            <h3>Churrasco</h3>
+            <ul>
+                <li id="resultadoAdultos">Adultos: </li>
+                <li id="resultadoPessoas">Pessoas: </li>
+                <li id="resultadoCarne">Carne: </li>
+                <li id="resultadoAcompanhamentos">Acompanhamentos: </li>
+                <li id="resultadoCerveja">Cerveja: </li>
+                <li id="resultadoRefrigerante">Refrigerante: </li>
+                <li id="resultadoAgua">Água: </li>
+            </ul>
+            <button id="recarregarButton">Recarregar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
